@@ -1,0 +1,59 @@
+body{
+    margin : 0px;
+}
+*{
+    box-sizing: border-box;
+}
+.toolbar
+{
+    display : flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.toolbar-options{
+    display: flex;
+    justify-content: center;
+    /* gap: 2rem; */
+
+}
+.tool-img{
+    height: 4rem;
+}
+
+
+
+
+
+
+/* ////////////////////////// */
+/* sticky css*/
+  
+  .sticky-pad {
+    height: 10rem;
+    width :6rem;
+    position: absolute;
+    left: 40vw;
+    top: 40vh;
+  }
+  .nav {
+    border:1px solid black;
+    height: 20%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: center; */
+    gap : 1rem;
+  }
+
+  .text-area{
+    height: 80%;
+    width: 100%;
+  }
+   /* **********upload********888 */
+   .input-tag{
+    display: none;
+   }
+   .upload-img{ 
+    height: 80%;
+    width: 100%;
+   }
